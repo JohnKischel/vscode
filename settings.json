@@ -1,0 +1,40 @@
+{
+    "emmet.triggerExpansionOnTab": true,
+    //"workbench.editor.wrapTabs": true,
+    "workbench.editor.enablePreview": false,
+    "workbench.editor.tabCloseButton": "off",
+    "workbench.editor.tabSizing": "shrink",
+    "workbench.panel.defaultLocation": "right",
+    "workbench.settings.editor": "json",
+    "workbench.sideBar.location": "left",
+    "debug.toolBarLocation": "docked",
+
+    // EDITOR
+    "editor.cursorBlinking": "phase",
+    "editor.cursorStyle": "line",
+    "editor.formatOnSave": false,
+    "editor.lineHeight": 22,
+    "editor.formatOnPaste": true,
+    "editor.wordWrapColumn": 79,
+    "explorer.autoReveal": true,
+    "editor.wordWrap": "wordWrapColumn",
+    "editor.rulers": [
+        79
+    ],
+
+    // FILES
+    "files.exclude": {
+        "**/.git": true,
+        "**/.gitignore": true,
+    },
+    "files.autoSave": "onFocusChange",
+    "files.insertFinalNewline": true,
+    "files.trimTrailingWhitespace": true,
+
+    // HTML
+    "html.format.enable": true,
+    "html.format.endWithNewline": false,
+
+    "terminal.explorerKind": "integrated",
+    "terminal.integrated.fontSize": 16,
+}
