@@ -1,4 +1,10 @@
 {
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+
+    "search.exclude": {
+        "**/node_modules": false
+    },
+
     "emmet.triggerExpansionOnTab": true,
     //"workbench.editor.wrapTabs": true,
     "workbench.editor.enablePreview": false,
@@ -13,20 +19,32 @@
     "editor.cursorBlinking": "phase",
     "editor.cursorStyle": "line",
     "editor.formatOnSave": false,
-    "editor.lineHeight": 22,
+    "editor.lineHeight": 25,
     "editor.formatOnPaste": true,
-    "editor.wordWrapColumn": 79,
+    "editor.wordWrapColumn": 150,
     "explorer.autoReveal": true,
     "editor.wordWrap": "wordWrapColumn",
     "editor.rulers": [
-        79
+        150
     ],
+    "editor.bracketPairColorization.enabled": true,
+    "editor.guides.bracketPairs": "active",
+    "editor.suggestSelection": "first",
+
 
     // FILES
     "files.exclude": {
         "**/.git": true,
         "**/.gitignore": true,
+        "**/.DS_Store": false,
+        "**/.hg": false,
+        "**/.svn": false,
+        "**/CVS": false,
+        "**/Thumbs.db": false,
+        "**/node_modules": true,
+        "**/.angular": true,
     },
+
     "files.autoSave": "onFocusChange",
     "files.insertFinalNewline": true,
     "files.trimTrailingWhitespace": true,
@@ -37,4 +55,11 @@
 
     "terminal.explorerKind": "integrated",
     "terminal.integrated.fontSize": 16,
+
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "html.hover.references": false,
+    "css.hover.references": false,
+    "scss.hover.references": false,
+    "less.hover.references": false,
 }
